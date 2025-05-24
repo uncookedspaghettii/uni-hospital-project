@@ -1,29 +1,29 @@
-Project Overview
-The system allows users to manage their fitness routines and dietary habits through a console-based interface.
-It supports personal profile management, meal and workout tracking, data importing from CSV/XML files, and data visualization using charts.
+# Hospital Management System – Java Project
 
-Features
-User Profile Management
-Create and edit profiles with weight, height, and fitness goals.
+This is a Java-based Hospital Management System developed as part of a university project by two students.
 
-Workout and Meal Entry
-Log detailed entries with category, calories, duration or quantity, and date.
+## Project Overview
 
-Custom Categories
-Add new workout or meal categories beyond the predefined ones.
+The system simulates basic hospital operations using object-oriented programming concepts in Java. It manages patient records, emergency priorities, treatment histories, and doctor assignments.
 
-Data Importing
-Load external data from CSV and XML files into the system.
+## Features
 
-Data Visualization
-Generate bar charts to show calories burned vs. consumed and meal category frequency.
+- Patient Records: Allows adding, updating, and displaying patients' personal information.
+- Emergency Queue: Uses a priority queue to manage patients based on the urgency of their condition.
+- Treatment History: Maintains a stack-based log of each patient's treatments.
+- Doctor Assignments: Manages doctor profiles, including departments and schedules.
 
-Technologies Used
-Python
+## Technologies Used
 
-matplotlib for data visualization
+- Java
+- Object-Oriented Programming (OOP)
+- Data Structures (Linked Lists, Stacks, Priority Queues, Hash Maps)
 
-csv module for CSV file processing
+## How to Run
 
-xml.etree.ElementTree for XML parsing
-
+1. Make sure Java is installed on your system.
+2. Place all .java files in the same directory.
+3. Compile the files:
+   
+bash
+   javac *.java
